@@ -1,9 +1,13 @@
 React blood donation web app (It is present as a folder in below mentioned git hub so we follow below process instead of git clone)
 
 git clone --no-checkout https://github.com/ianshulx/React-projects-for-beginners.git 
+
 cd React-projects-for-beginners/
+
 git sparse-checkout init --cone
+
 git sparse-checkout set Blood_Donation_Website/client
+
 git checkout
 
 Install Node.js and npm
